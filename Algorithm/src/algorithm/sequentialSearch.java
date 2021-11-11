@@ -49,5 +49,34 @@ public class sequentialSearch {
 		else
 			return Math.max(data[begin], findMax(data, begin+1, end));
 	}
+	//중간값부터 최대값 찾기
+	int findMax2(int [] data, int begin, int end) {
+		if (begin==end)
+			return data[begin];
+			else {
+				int middle = (begin+end)/2;
+				int max1 = findMax(data, begin, middle);
+				int max2 = findMax(data, middle+1, end);
+				return Math.max(max1, max2);
+						
+			}
+	
+	}
+	//리커전으로 이진검색
+	public static int binarySearch(String[] items, String target, 
+			int begin, int end) {
+		if (begin>end)
+			return -1;
+		else {
+			int middle = (begin+end)/2;
+			int compResult = target.compareTo(items[middle]);
+			if (compResult == 0)
+				return middle;
+			else if (compResult<0)
+				return binarySearch(items, target, begin, middle-1);
+			else
+				return binarySearch(items, target, middle+1, end);
+		}
+	}
 
 }
