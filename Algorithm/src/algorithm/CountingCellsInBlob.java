@@ -24,7 +24,7 @@ public class CountingCellsInBlob {
 	public int countCells(int x, int y) {
 		
 		int grid [][] = new int[16][16];
-		int N;
+		int N = 16;
 		
 		if (x<0 || x>=N || y<0 || y>=N)
 			return 0;
