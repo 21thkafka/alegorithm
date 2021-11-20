@@ -37,9 +37,9 @@ public class powerset {
 			System.out.println();
 			return;
 		}
-		include[k]=false;
+		include[k]=false;	//k를 포함하지 않는 경우
 		powerSet(k+1);
-		include[k] = true;
+		include[k] = true;	//k를 포함하는 경우
 		powerSet(k+1);
 	}
 }
