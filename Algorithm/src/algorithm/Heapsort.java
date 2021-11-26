@@ -31,4 +31,14 @@ public class Heapsort {
 	 * 	end
 	 * }
 	 */
+	//힙을 정렬하는 방법 : 첫번째 자리 root는 항상 최댓값이므로 맨 끝자리 숫자와 바꾼다.
+	//그러면 정렬할 숫자들의 갯수가 n-1로 줄어든다. 나머지 값들의 heapfy를 한다. 그리고 이 과정을 반복한다.
+	/*
+	 * HEAPSORT(A)
+	 * 1. BUILD-MAX-HEAP(A)
+	 * 1. for i <- heap_size downto 2 do
+	 * 3. 	exchange A[1] <-> A[i]
+	 * 4.	heap_size <- heap_size -1
+	 * 5. 	MAX-HEAPFIY(A, 1)
+	 */
 }
