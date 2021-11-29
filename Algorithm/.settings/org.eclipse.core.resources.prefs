@@ -2,6 +2,7 @@ eclipse.preferences.version=1
 encoding//src/algorithm/CountingCellsInBlob.java=UTF-8
 encoding//src/algorithm/Heapsort.java=UTF-8
 encoding//src/algorithm/Quicksort.java=UTF-8
+encoding//src/algorithm/SortingInLinearTime.java=UTF-8
 encoding//src/algorithm/basicSort.java=UTF-8
 encoding//src/algorithm/nQeensProblem.java=UTF-8
 encoding//src/algorithm/powerset.java=UTF-8
