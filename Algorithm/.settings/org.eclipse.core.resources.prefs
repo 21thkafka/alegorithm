@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+encoding//src/algorithm/BinarySearchTree.java=UTF-8
 encoding//src/algorithm/CountingCellsInBlob.java=UTF-8
 encoding//src/algorithm/Heapsort.java=UTF-8
 encoding//src/algorithm/Quicksort.java=UTF-8
